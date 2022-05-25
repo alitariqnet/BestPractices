@@ -1,4 +1,4 @@
-package Animals;
+package LivingThings;
 
 public abstract class Rabbit extends Animal{
 

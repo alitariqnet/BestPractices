@@ -1,6 +1,6 @@
-package Animals;
+package LivingThings;
 
-public class RealDuck extends Duck{
+public class DummyDuck extends Duck{
 
 	@Override
 	public void fly() {

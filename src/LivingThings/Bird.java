@@ -1,4 +1,4 @@
-package Animals;
+package LivingThings;
 
 public abstract class Bird extends Creature implements LivingThing{
 	public abstract void age();

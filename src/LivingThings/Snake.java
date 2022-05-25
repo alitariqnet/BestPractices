@@ -1,4 +1,4 @@
-package Animals;
+package LivingThings;
 
 public class Snake extends Animal {
 

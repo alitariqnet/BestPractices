@@ -1,6 +1,4 @@
-package main;
-
-import Animals.LivingThing;
+package LivingThings;
 
 public class Tree implements LivingThing{
 
