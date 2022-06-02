@@ -12,9 +12,14 @@ public class TestClass {
 		// [1,2,3,1,1,1,2,4,5,8,0,2,2,2,2,4,5,1,3,5,6,1,0,1]
 		
 		int number = 0;
-		int max = -1;
+		int maxValue = -1;
 		Map<Integer,Integer> m = new HashMap<Integer,Integer>();
 		int []arr = {1,2,3,1,1,1,2,4,5,8,0,2,2,2,2,4,5,1,3,5,6,1,0,1};
+		for (int i = 0; i < arr.length; i++) {
+			if(arr[i]>maxValue)
+				maxValue=arr[i];
+		}
+		System.out.println("max: "+maxValue);
 		int temp;
 		for (int i = 0; i < arr.length; i++) {
 			temp = arr[i];
@@ -23,11 +28,9 @@ public class TestClass {
 				m.put(temp, 0);
 		}
 		System.out.println(m.toString());
-		int lenghttemp = m.size();
 		int value = 0;
-		System.out.println(m.get(6));
 		Map<Integer,Integer> m2 = new HashMap<Integer,Integer>();
-		for (int i = 0; i < lenghttemp+1; i++) {
+		for (int i = 0; i < maxValue+1; i++) {
 			if(m.containsKey(i)) {
 				value = m.get(i);
 			for (int j = 0; j < arr.length; j++) {
@@ -42,17 +45,16 @@ public class TestClass {
 			}
 			value=0;
 		}
-
+		int maxNumber=-1;
 		System.out.println(m2.toString());
-		System.out.println(m.get(8));
-		for (int i = 0; i < lenghttemp-1; i++) {
-			if(m2.get(i)>max) {
-				max = m2.get(i);
+		for (int i = 0; i < maxValue-1; i++) {
+			if(m2.get(i)>maxNumber) {
+				maxNumber = m2.get(i);
 				number = i;
 			}
 		}
 		
-		System.out.println("max repeated number is "+number+" and its occurance is "+max);
+		System.out.println("max repeated number is "+number+" and its occurance is "+maxNumber);
 	}
 
 }

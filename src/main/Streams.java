@@ -1,6 +1,7 @@
 package main;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
 public class Streams {
@@ -27,8 +28,17 @@ public class Streams {
                 //.mapToInt(w -> ((StreamPractice) w).getWeight())
                 //.sum();
 		System.out.println(sum);
-		
-		
+		System.out.print("");
+		IntStream.rangeClosed(1, 10).skip(5).forEach(x -> System.out.println(x));
+		System.out.print("");
+		System.out.println(IntStream.rangeClosed(1, 10).skip(5).sum());
+		System.out.print("");
+		// summaryStatistics() only works for integer stream
+		System.out.println(IntStream.rangeClosed(1, 10).skip(5).summaryStatistics());
+		System.out.print("");
+		String []names = {"Umar","Ali","Hassan","Hira"};
+		Stream.of(names).sorted().filter(x -> x.startsWith("H")).forEach(System.out::println);
+		System.out.print("");
 	}
 	
 	Streams(int weight ,String color){
