@@ -40,13 +40,37 @@ public class Lists {
 		ArrayList al = new ArrayList();
 		al.add("abc");
 		
+		// Set is interface that extends Collection
+		/**
+	     * Constructs a new, empty set; the backing <tt>HashMap</tt> instance has
+	     * default initial capacity (16) and load factor (0.75).
+	     */
 		Set set = new HashSet(); 
+		// A set is the representation of the mathematical set
 		set.add(0);
+		// A Set can contain a null value
 		set.add(null);
 		set.add("Ali");
 		set.add('c');
-		set.add(null);
+		System.out.print(set.contains('c'));
+		System.out.println("");
+		
+		// Order of elements remains the same
+		set.stream().forEach(System.out::println);
+		set.remove(null);
+		set.size();
+		/*
+		 * We need to iterate through all the elements of the set
+		 * we can't get an element by index
+		 */
+		
+		Iterator it = set.iterator();
+		while(it.hasNext()) {
+			System.out.print(it.next()+" ");
+		}
+		System.out.println("");
 		System.out.println(set.toString());
+		
 	}
 
 }
