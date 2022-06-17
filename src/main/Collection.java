@@ -85,6 +85,11 @@ public class Collection {
 		v.add(1);
 		System.out.println(v.toString());
 		
+		Map m = new HashMap(3);
+		m.put(1, 100);
+		m.put(2, 200);
+		m.put('3', "300");
+		System.out.println(m.toString());
 	}
 
 }
