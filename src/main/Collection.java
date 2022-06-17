@@ -1,12 +1,8 @@
 package main;
-import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.PriorityQueue;
-import java.util.Queue;
-import java.util.Stack;
 import java.util.*;
+import java.util.concurrent.SynchronousQueue;
 
-public class Lists {
+public class Collection {
 
 	public static void main(String[] args) {
 		
@@ -22,6 +18,7 @@ public class Lists {
 		String s2 = ll.remove();
 		System.out.println(ll.size()+" "+s+" "+s2+" "+ll.toString());
 		
+		System.out.println("stack practice");
 		Stack st = new Stack();
 		st.add(1);
 		st.add("my");
@@ -29,13 +26,14 @@ public class Lists {
 		st.pop();
 		System.out.println(st);
 		
-		Queue q = new PriorityQueue();
-		q.add(1);
-		q.add(2);
-		q.add(3);
-		q.add(4);
-		q.remove();
-		System.out.println(q);
+		System.out.println("Queue practice");
+		Queue queue = new PriorityQueue();
+		queue.add(1);
+		queue.add(2);
+		queue.add(3);
+		queue.add(4);
+		queue.remove();
+		System.out.println(queue);
 		
 		ArrayList al = new ArrayList();
 		al.add("abc");
@@ -45,6 +43,7 @@ public class Lists {
 	     * Constructs a new, empty set; the backing <tt>HashMap</tt> instance has
 	     * default initial capacity (16) and load factor (0.75).
 	     */
+		System.out.println("Set practice");
 		Set set = new HashSet(); 
 		// A set is the representation of the mathematical set
 		set.add(0);
@@ -70,6 +69,26 @@ public class Lists {
 		}
 		System.out.println("");
 		System.out.println(set.toString());
+		
+		// HashTable synchronized collections
+		Hashtable<String,Integer> ht = new Hashtable<String,Integer>();
+		ht.put("Umar", 1);
+		ht.put("Ali", 2);
+		ht.put("Hassan", 3);
+		
+		// Vector synchronized
+		Vector v = new Vector(10);
+		v.add('a');
+		v.add(1);
+		v.add("hello");
+		v.add(null);
+		v.add(1);
+		System.out.println(v.toString());
+		
+		//Synchronous Queue synchronized
+		Queue<String> sq = new SynchronousQueue<String>();
+		sq.add("hello");
+		System.out.println("SynchronousQueue"+sq.toString());
 		
 	}
 
