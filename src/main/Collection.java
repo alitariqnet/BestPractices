@@ -85,11 +85,6 @@ public class Collection {
 		v.add(1);
 		System.out.println(v.toString());
 		
-		//Synchronous Queue synchronized
-		Queue<String> sq = new SynchronousQueue<String>();
-		sq.add("hello");
-		System.out.println("SynchronousQueue"+sq.toString());
-		
 	}
 
 }
