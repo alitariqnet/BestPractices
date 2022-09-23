@@ -71,10 +71,10 @@ public class Collection {
 		System.out.println(set.toString());
 		
 		// HashTable synchronized collections
-		Hashtable<String,Integer> ht = new Hashtable<String,Integer>();
-		ht.put("Umar", 1);
-		ht.put("Ali", 2);
-		ht.put("Hassan", 3);
+		Hashtable<String,Integer> ht = new Hashtable<String,Integer>(10);
+//		ht.put("Umar", 1);
+//		ht.put("Ali", 2);
+//		ht.put("Hassan", 3);
 		
 		// Vector synchronized
 		Vector v = new Vector(10);
