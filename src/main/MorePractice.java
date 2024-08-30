@@ -14,7 +14,7 @@ public class MorePractice {
 		map.put("Hello","World");
 		hash.put("Hello","World");
 		// Optional since 1.8
-		Optional<Integer> str = Optional.of(null);
+		Optional<Integer> str = Optional.ofNullable(null);
 //		Integer str = null;
 		System.out.println(str);
 	}

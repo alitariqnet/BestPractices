@@ -60,16 +60,30 @@ public class Occurrence {
 	}
 	public static void easyWay(int []arr) {
 				
-				Map<Integer,Integer> map = new HashMap<Integer,Integer>();
-				for (int i = 0; i < arr.length; i++) {
-		            // populate map with unique numbers
-		            if(!map.containsKey(arr[i]))
-		                map.put(arr[i], 1);
-		            else {
-		                map.put(arr[i], map.get(arr[i])+1);
-		            }
+		Map<Integer,Integer> map = new HashMap<Integer,Integer>();
+		for (int i = 0; i < arr.length; i++) {
+			// populate map with unique numbers
+			if(!map.containsKey(arr[i]))
+				map.put(arr[i], 1);
+			else {
+				map.put(arr[i], map.get(arr[i])+1);
+			}
 
-		        }
-				System.out.println(map.toString());
+		}
+		System.out.println("Inside easyWay method");
+		int maxNumber = Integer.MIN_VALUE;
+		int num = 0;
+		for (int i = 0; i < map.size(); i++) {
+			num = map.get(i);
+//			map.keySet().stream().filter(
+//					(key) -> {return map.get(key)}
+//			);
+			if(num > maxNumber){
+				maxNumber = num;
+				num = i;
+			}
+		}
+		System.out.println(map.toString());
+		System.out.println("max repeated number is "+num+" and its occurance is "+maxNumber);
 	}
 }
