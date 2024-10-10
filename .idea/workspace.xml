@@ -1,12 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="b4a806ba-543a-4388-a439-13ff425a8b34" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+    <list default="true" id="b4a806ba-543a-4388-a439-13ff425a8b34" name="Changes" comment="Java 17 features">
+      <change afterPath="$PROJECT_DIR$/.idea/BestPractices.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Java/Conditionals.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Java/Day.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Java/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LivingThings/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/LivingThings/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LivingThings/Bird.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/LivingThings/Bird.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LivingThings/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/LivingThings/Cat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LivingThings/Creature.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/LivingThings/Creature.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LivingThings/Duck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/LivingThings/Duck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LivingThings/DummyDuck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/LivingThings/DummyDuck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LivingThings/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/LivingThings/Human.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LivingThings/LivingThing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/LivingThings/LivingThing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LivingThings/Parrot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/LivingThings/Parrot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LivingThings/PersianDoll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/LivingThings/PersianDoll.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LivingThings/Rabbit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/LivingThings/Rabbit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LivingThings/RealDuck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/LivingThings/RealDuck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LivingThings/Snake.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/LivingThings/Snake.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LivingThings/Tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/LivingThings/Tree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Arrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Java/Arrays.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/BaseBallCoach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Java/BaseBallCoach.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Coach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Java/Coach.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Collection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Java/Collection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/CricketCoach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Java/CricketCoach.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/DataStructure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Java/DataStructure.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Loops.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Java/Loops.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/MorePractice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Java/MorePractice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Occurrence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Java/Occurrence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/OtherClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Java/OtherClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/OuterClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Java/OuterClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Practice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Java/Practice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/ReverseString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Java/ReverseString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/SOLIDPrinciples.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Java/SOLIDPrinciples.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Search.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Java/Search.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Streams.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Java/Streams.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/StringsAttached.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Java/StringsAttached.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/TimeDate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Java/TimeDate.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,15 +54,40 @@
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;alitariqnet&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/alitariqnet/BestPractices.git&quot;,
+    &quot;accountId&quot;: &quot;b951fd0a-fab6-467e-8c9f-df1e9a10c531&quot;
+  }
+}</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2NMRhLDgcpBpShP9MxOGYTJ39ke" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -33,11 +96,62 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Conditionals.executor": "Run",
+    "Application.Person.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/Ali/eclipse-workspace/BestPractices"
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/alibaba/Desktop/Projects/spring-batch/spring-batch-samples",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\alibaba\Desktop\Projects\BestPractices\src\main\Java" />
+      <recent name="C:\Users\alibaba\Desktop\Projects\BestPractices\src\main" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="Java" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Person">
+    <configuration name="Conditionals" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java.Conditionals" />
+      <module name="BestPractices" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Java.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Person" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java.Person" />
+      <module name="BestPractices" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Java.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Person" />
+        <item itemvalue="Application.Conditionals" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -47,6 +161,23 @@
       <option name="presentableId" value="Default" />
       <updated>1679472084152</updated>
     </task>
+    <task id="LOCAL-00001" summary="LinkedHashSet">
+      <option name="closed" value="true" />
+      <created>1727881486799</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1727881486799</updated>
+    </task>
+    <task id="LOCAL-00002" summary="LinkedHashSet comments">
+      <option name="closed" value="true" />
+      <created>1727883863847</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1727883863847</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -59,5 +190,11 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="LinkedHashSet" />
+    <MESSAGE value="LinkedHashSet comments" />
+    <MESSAGE value="Java 17 features" />
+    <option name="LAST_COMMIT_MESSAGE" value="Java 17 features" />
   </component>
 </project>

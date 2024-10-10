@@ -1,4 +1,4 @@
-package main;
+package Java;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -15,20 +15,20 @@ public class Occurrence {
 				
 				int number = 0;
 				int maxValue = -1;
-				Map<Integer,Integer> m = new HashMap<Integer,Integer>();
-				
-				for (int i = 0; i < arr.length; i++) {
-					if(arr[i]>maxValue)
-						maxValue=arr[i];
-				}
+				Map<Integer,Integer> m = new HashMap<>();
+
+        for (int k : arr) {
+            if (k > maxValue)
+                maxValue = k;
+        }
 				System.out.println("max: "+maxValue);
 				int temp;
-				for (int i = 0; i < arr.length; i++) {
-					temp = arr[i];
-					// populate map with unique numbers
-					if(!m.containsKey(temp))
-						m.put(temp, 0);
-				}
+        for (int k : arr) {
+            temp = k;
+            // populate map with unique numbers
+            if (!m.containsKey(temp))
+                m.put(temp, 0);
+        }
 				System.out.println(m.toString());
 				int value = 0;
 				Map<Integer,Integer> m2 = new HashMap<Integer,Integer>();

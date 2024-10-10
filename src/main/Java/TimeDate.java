@@ -1,4 +1,4 @@
-
+package Java;
 
 import java.util.Arrays;
 import java.util.Date;
@@ -16,7 +16,7 @@ public class TimeDate {
         List<String> dates = Arrays.asList("22nd Mar 1984","20th Feb 1960","19th Sep 1940", "14th Jul 1990",
                 "1st Apr 1950","3rd Dec 1889");
 
-        List<String> formatedDates = new LinkedList();
+        List<String> formatedDates = new LinkedList<>();
         for (String date : dates) {
             String[] tempDate = date.split(" ");
             String day = tempDate[0];

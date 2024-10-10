@@ -1,4 +1,4 @@
-package main;
+package Java;
 
 public class BaseBallCoach implements Coach {
 	public static void main(String[] args) {

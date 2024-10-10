@@ -1,4 +1,4 @@
-package main;
+package Java;
 
 
 public class CricketCoach implements Coach {
