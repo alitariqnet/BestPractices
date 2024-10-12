@@ -2,48 +2,47 @@ package Java;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.IntSummaryStatistics;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
+import java.util.Arrays;
+import java.util.function.Predicate;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
-import java.util.Arrays;
 import java.util.stream.Collectors;
 
 public class Streams {
-	
-	int tone;
-	String color;
+
+
 
 	public static void main(String[] args) throws IOException {
-		
-		List<Streams> sp = new ArrayList<Streams>();
-		sp.add(new Streams(10,"RED"));
-		sp.add(new Streams(11,"BLUE"));
-		sp.add(new Streams(12,"RED"));
-		sp.add(new Streams(13,"YELLOW"));
-		sp.add(new Streams(14,"WHITE"));
-		sp.add(new Streams(15,"RED"));
-		sp.add(new Streams(16,"BLACK"));
-		sp.add(new Streams(17,"RED"));
+
+		List<Colors> sp = new ArrayList<Colors>();
+		sp.add(new Colors(10,"RED"));
+		sp.add(new Colors(11,"BLUE"));
+		sp.add(new Colors(12,"RED"));
+		sp.add(new Colors(13,"YELLOW"));
+		sp.add(new Colors(14,"WHITE"));
+		sp.add(new Colors(15,"RED"));
+		sp.add(new Colors(16,"BLACK"));
+		sp.add(new Colors(17,"RED"));
 		
 		
 		Stream st = sp.stream();
-		
-		int sum = (int) st.filter(w -> ((Streams) w).getColor() == "RED").count();
-                //.mapToInt(w -> ((StreamPractice) w).getWeight())
-                //.sum();
+
+		int sum = (int) st.filter(w -> ((Colors) w).getColor() == "RED").count();
 		System.out.println(sum);
 		System.out.print("");
+
+//		st.mapToInt(w -> ((Colors) w).getTone()).sum();
+
 		IntStream.rangeClosed(1, 10).skip(5).forEach(x -> System.out.println(x));
 		System.out.print("");
 		System.out.println(IntStream.rangeClosed(1, 10).skip(5).sum());
 		System.out.print("");
+
 		// summaryStatistics() only works for integer stream
 		System.out.println(IntStream.rangeClosed(1, 10).skip(5).summaryStatistics());
 		System.out.print("");
+
 		String []names = {"Umar","Ali","Hassan","Hira"};
 		Stream.of(names).sorted().filter(x -> x.startsWith("H")).forEach(System.out::println);
 		System.out.print("");
@@ -96,64 +95,77 @@ public class Streams {
 					.forEach(System.out::println);
 					
 				// 8. Stream rows from text file, sort, filter, and print
-				Stream<String> bands = Files.lines(Paths.get("bands.txt"));
-				bands
-					.sorted()
-					.filter(x -> x.length() > 13)
-					.forEach(System.out::println);
-				bands.close();
+//				Stream<String> bands = Files.lines(Paths.get("bands.txt"));
+//				bands
+//					.sorted()
+//					.filter(x -> x.length() > 13)
+//					.forEach(System.out::println);
+//				bands.close();
 				
 				// 9. Stream rows from text file and save to List
-				List<String> bands2 = Files.lines(Paths.get("bands.txt"))
-					.filter(x -> x.contains("jit"))
-					.collect(Collectors.toList());
-				bands2.forEach(x -> System.out.println(x));
+//				List<String> bands2 = Files.lines(Paths.get("bands.txt"))
+//					.filter(x -> x.contains("jit"))
+//					.collect(Collectors.toList());
+//				bands2.forEach(x -> System.out.println(x));
 				
 				// 10. Stream rows from CSV file and count
-				Stream<String> rows1 = Files.lines(Paths.get("data.txt"));
-				int rowCount = (int)rows1
-					.map(x -> x.split(","))
-		            .filter(x -> x.length == 3)
-					.count();
-				System.out.println(rowCount + " rows.");
-				rows1.close();
+//				Stream<String> rows1 = Files.lines(Paths.get("data.txt"));
+//				int rowCount = (int)rows1
+//					.map(x -> x.split(","))
+//		            .filter(x -> x.length == 3)
+//					.count();
+//				System.out.println(rowCount + " rows.");
+//				rows1.close();
 				
 				// 11. Stream rows from CSV file, parse data from rows
-				Stream<String> rows2 = Files.lines(Paths.get("data.txt"));
-				rows2
-					.map(x -> x.split(","))
-		            .filter(x -> x.length == 3)
-					.filter(x -> Integer.parseInt(x[1]) > 15)
-					.forEach(x -> System.out.println(x[0] + "  " + x[1] + "  " + x[2]));
-				rows2.close();
+//				Stream<String> rows2 = Files.lines(Paths.get("data.txt"));
+//				rows2
+//					.map(x -> x.split(","))
+//		            .filter(x -> x.length == 3)
+//					.filter(x -> Integer.parseInt(x[1]) > 15)
+//					.forEach(x -> System.out.println(x[0] + "  " + x[1] + "  " + x[2]));
+//				rows2.close();
 				
 				// 12. Stream rows from CSV file, store fields in HashMap
-				Stream<String> rows3 = Files.lines(Paths.get("data.txt"));
-				Map<String, Integer> map = new HashMap<>();
-				map = rows3
-					.map(x -> x.split(","))
-		            .filter(x -> x.length == 3)
-					.filter(x -> Integer.parseInt(x[1]) > 15)
-					.collect(Collectors.toMap(
-		                x -> x[0],
-		                x -> Integer.parseInt(x[1])));
-				rows3.close();
-				for (String key : map.keySet()) {
-					System.out.println(key + "  " + map.get(key));
-				}
-					
+//				Stream<String> rows3 = Files.lines(Paths.get("data.txt"));
+//				Map<String, Integer> map = new HashMap<>();
+//				map = rows3
+//					.map(x -> x.split(","))
+//		            .filter(x -> x.length == 3)
+//					.filter(x -> Integer.parseInt(x[1]) > 15)
+//					.collect(Collectors.toMap(
+//		                x -> x[0],
+//		                x -> Integer.parseInt(x[1])));
+//				rows3.close();
+//				for (String key : map.keySet()) {
+//					System.out.println(key + "  " + map.get(key));
+//				}
+
+				boolean test = Stream.of(7.3, 1.5, 4.8).anyMatch((o) -> (o.doubleValue()>7));
+				System.out.println("test -> "+test);
 				// 13. Reduction - sum
 				double total = Stream.of(7.3, 1.5, 4.8)
 					.reduce(0.0, (Double a, Double b) -> a + b);
 				System.out.println("Total = " + total);
-				
+
 				// 14. Reduction - summary statistics
 				IntSummaryStatistics summary = IntStream.of(7, 2, 19, 88, 73, 4, 10)
 					.summaryStatistics();
 				System.out.println(summary);
+
+				// Find second maximum number from the list using stream API
+				List<Integer> list = Arrays.asList(7, 2, 19, 88, 73, 4, 10);
+				int secondMax = list.stream().sorted().skip(list.size()-2).findFirst().get();
+				System.out.println("Second Max from the list: "+ secondMax);
 	}
-	
-	Streams(int weight ,String color){
+
+
+public static class Colors{
+
+	int tone;
+	String color;
+
+	Colors(int weight ,String color){
 		this.tone=weight;
 		this.color=color;
 	}
@@ -173,5 +185,7 @@ public class Streams {
 	public void setColor(String color) {
 		this.color = color;
 	}
-	
+}
+
+
 }
