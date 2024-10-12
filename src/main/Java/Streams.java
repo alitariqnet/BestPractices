@@ -1,21 +1,18 @@
 package Java;
 
 import java.io.IOException;
-import java.nio.file.Files;
-import java.nio.file.Paths;
 import java.util.*;
 import java.util.Arrays;
 import java.util.function.Predicate;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
-import java.util.stream.Collectors;
 
 public class Streams {
 
 
     public static void main(String[] args) throws IOException {
 
-        List<Colors> sp = new ArrayList<Colors>();
+        List<Colors> sp = new ArrayList<>();
         sp.add(new Colors(10, "RED"));
         sp.add(new Colors(11, "BLUE"));
         sp.add(new Colors(12, "RED"));
@@ -26,26 +23,24 @@ public class Streams {
         sp.add(new Colors(17, "RED"));
 
 
-        Stream st = sp.stream();
+        Stream<Colors> st = sp.stream();
 
-        int sum = (int) st.filter(w -> ((Colors) w).getColor() == "RED").count();
+        int sum;
+        sum = (int) st.filter(w -> Objects.equals(((Colors) w).getColor(), "RED")).count();
         System.out.println(sum);
-        System.out.print("");
 
 //		st.mapToInt(w -> ((Colors) w).getTone()).sum();
 
-        IntStream.rangeClosed(1, 10).skip(5).forEach(x -> System.out.println(x));
-        System.out.print("");
+        IntStream.rangeClosed(1, 10).skip(5).forEach(System.out::println);
+
         System.out.println(IntStream.rangeClosed(1, 10).skip(5).sum());
-        System.out.print("");
 
         // summaryStatistics() only works for integer stream
         System.out.println(IntStream.rangeClosed(1, 10).skip(5).summaryStatistics());
-        System.out.print("");
 
         String[] names = {"Umar", "Ali", "Hassan", "Hira"};
         Stream.of(names).sorted().filter(x -> x.startsWith("H")).forEach(System.out::println);
-        System.out.print("");
+
 
         // 1. Integer Stream
         IntStream
