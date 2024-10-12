@@ -26,10 +26,10 @@ public class Streams {
         Stream<Colors> st = sp.stream();
 
         int sum;
-        sum = (int) st.filter(w -> Objects.equals(((Colors) w).getColor(), "RED")).count();
+        sum = (int) st.filter(w -> Objects.equals((w).getColor(), "RED")).count();
         System.out.println(sum);
 
-//		st.mapToInt(w -> ((Colors) w).getTone()).sum();
+        sp.stream().mapToInt(w -> (w).getTone()).sum();
 
         IntStream.rangeClosed(1, 10).skip(5).forEach(System.out::println);
 
@@ -52,7 +52,7 @@ public class Streams {
         IntStream
                 .range(1, 10)
                 .skip(5)
-                .forEach(x -> System.out.println(x));
+                .forEach(System.out::println);
         System.out.println();
 
         // 3. Integer Stream with sum
@@ -140,7 +140,7 @@ public class Streams {
         System.out.println("test -> " + test);
         // 13. Reduction - sum
         double total = Stream.of(7.3, 1.5, 4.8)
-                .reduce(0.0, (Double a, Double b) -> a + b);
+                .reduce(0.0, Double::sum);
         System.out.println("Total = " + total);
 
         // 14. Reduction - summary statistics
