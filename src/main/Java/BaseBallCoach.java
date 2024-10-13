@@ -1,11 +1,17 @@
 package Java;
 
-public class BaseBallCoach implements Coach {
+public class BaseBallCoach extends AssistantCoach implements Coach {
+	public BaseBallCoach() {
+		super();
+	}
+
 	public static void main(String[] args) {
 
-		Coach BCoach = new BaseBallCoach();
+		Coach coach = new BaseBallCoach();
 		
-		System.out.println(BCoach.getDailyRoutine());
+		System.out.println(coach.getDailyRoutine());
+		// this line will run abstract class method, not the one that is in interface
+		System.out.println(coach.getDailyHardRoutine());
 	}
 
 	public String getDailyRoutine() {

@@ -149,7 +149,7 @@ public class Streams {
         System.out.println(summary);
 
         // Find second maximum number from the list using stream API
-        List<Integer> list = Arrays.asList(7, 2, 19, 88, 73, 4, 7, 10);
+        List<Integer> list = Arrays.asList(7, 2, 19, 88, 73, 4, 7, 19, 10);
 //				list.stream().sorted().skip(4).forEach(System.out::println);
 
         Predicate p = (o) -> !o.toString().equalsIgnoreCase("19");

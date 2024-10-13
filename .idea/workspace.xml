@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b4a806ba-543a-4388-a439-13ff425a8b34" name="Changes" comment="More streams">
+      <change afterPath="$PROJECT_DIR$/src/main/Java/AssistantCoach.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Java/BaseBallCoach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Java/BaseBallCoach.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Java/Coach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Java/Coach.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Java/OuterClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Java/OuterClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/Java/Streams.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Java/Streams.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,23 +60,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Conditionals.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Person.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ShadowTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Streams.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/alibaba/Desktop/Projects/spring-batch/spring-batch-samples&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.BaseBallCoach.executor": "Run",
+    "Application.Coach.executor": "Run",
+    "Application.Conditionals.executor": "Run",
+    "Application.OuterClass.executor": "Run",
+    "Application.Person.executor": "Run",
+    "Application.ShadowTest.executor": "Run",
+    "Application.Streams.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/alibaba/Desktop/Projects/spring-batch/spring-batch-samples",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\alibaba\Desktop\Projects\BestPractices\src\main\Java" />
@@ -83,6 +90,19 @@
     </key>
   </component>
   <component name="RunManager">
+    <configuration name="BaseBallCoach" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java.BaseBallCoach" />
+      <module name="BestPractices" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Java.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Conditionals" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Java.Conditionals" />
       <module name="BestPractices" />
@@ -124,6 +144,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BaseBallCoach" />
         <item itemvalue="Application.Conditionals" />
         <item itemvalue="Application.ShadowTest" />
         <item itemvalue="Application.Person" />
@@ -163,7 +184,31 @@
       <option name="project" value="LOCAL" />
       <updated>1728722593280</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="More streams">
+      <option name="closed" value="true" />
+      <created>1728732173132</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1728732173132</updated>
+    </task>
+    <task id="LOCAL-00005" summary="More streams">
+      <option name="closed" value="true" />
+      <created>1728732308890</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1728732308890</updated>
+    </task>
+    <task id="LOCAL-00006" summary="More streams">
+      <option name="closed" value="true" />
+      <created>1728732501413</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1728732501413</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
