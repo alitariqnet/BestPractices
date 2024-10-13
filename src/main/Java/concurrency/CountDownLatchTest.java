@@ -1,4 +1,4 @@
-package Java;
+package Java.concurrency;
 
 import java.util.Arrays;
 import java.util.concurrent.CountDownLatch;
@@ -36,7 +36,9 @@ public class CountDownLatchTest {
                 startSignal.await();
                 doWork();
                 doneSignal.countDown();
-            } catch (InterruptedException ex) {} // return;
+            } catch (InterruptedException ex) {
+                System.out.println(ex.getMessage());
+            } // return;
         }
 
         void doWork() {

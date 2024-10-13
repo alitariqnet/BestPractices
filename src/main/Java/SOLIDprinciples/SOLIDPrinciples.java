@@ -1,4 +1,4 @@
-package Java;
+package Java.SOLIDprinciples;
 
 public class SOLIDPrinciples {
     public static void main(String[] args) {
