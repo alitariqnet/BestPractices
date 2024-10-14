@@ -4,13 +4,45 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b4a806ba-543a-4388-a439-13ff425a8b34" name="Changes" comment="More streams">
-      <change afterPath="$PROJECT_DIR$/src/main/Java/AssistantCoach.java" afterDir="false" />
+    <list default="true" id="b4a806ba-543a-4388-a439-13ff425a8b34" name="Changes" comment="Concurrency">
+      <change afterPath="$PROJECT_DIR$/src/main/Java/MemoryManagement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/BestPractices.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/BestPractices.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Java/BaseBallCoach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Java/BaseBallCoach.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Java/Coach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Java/Coach.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Java/OuterClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Java/OuterClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Java/Streams.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Java/Streams.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/LivingThings/Animal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/LivingThings/Bird.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/LivingThings/Cat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/LivingThings/Creature.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/LivingThings/Duck.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/LivingThings/DummyDuck.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/LivingThings/Human.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/LivingThings/LivingThing.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/LivingThings/Parrot.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/LivingThings/PersianDoll.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/LivingThings/Rabbit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/LivingThings/RealDuck.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/LivingThings/Snake.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/LivingThings/Tree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/Arrays.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/BaseBallCoach.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/Coach.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/Collection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/CricketCoach.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/DataStructure$DataStructureIterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/DataStructure$EvenIterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/DataStructure.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/Loops.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/MorePractice.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/OtherClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/OuterClass$InnerClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/OuterClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/Practice.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/ReverseString.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/Search.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/Streams.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/StringsAttached.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/TestClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/TimeDate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/WC.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,19 +97,26 @@
     "Application.BaseBallCoach.executor": "Run",
     "Application.Coach.executor": "Run",
     "Application.Conditionals.executor": "Run",
+    "Application.CountDownLatchTest.executor": "Debug",
+    "Application.FutureTest.executor": "Run",
+    "Application.MemoryManagement.executor": "Run",
     "Application.OuterClass.executor": "Run",
     "Application.Person.executor": "Run",
     "Application.ShadowTest.executor": "Run",
     "Application.Streams.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "true",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/alibaba/Desktop/Projects/spring-batch/spring-batch-samples",
-    "project.structure.last.edited": "Project",
+    "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.0"
+    "project.structure.side.proportion": "0.2"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -95,7 +134,7 @@
       <module name="BestPractices" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Java.*" />
+          <option name="PATTERN" value="Java.concurrency.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,7 +147,7 @@
       <module name="BestPractices" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Java.*" />
+          <option name="PATTERN" value="Java.concurrency.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,7 +160,7 @@
       <module name="BestPractices" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Java.*" />
+          <option name="PATTERN" value="Java.concurrency.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,7 +173,7 @@
       <module name="BestPractices" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Java.*" />
+          <option name="PATTERN" value="Java.concurrency.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -208,7 +247,31 @@
       <option name="project" value="LOCAL" />
       <updated>1728732501413</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="More streams">
+      <option name="closed" value="true" />
+      <created>1728812598679</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1728812598679</updated>
+    </task>
+    <task id="LOCAL-00008" summary="CountDownLatch">
+      <option name="closed" value="true" />
+      <created>1728842071170</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1728842071170</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Concurrency">
+      <option name="closed" value="true" />
+      <created>1728844044122</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1728844044122</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -227,6 +290,29 @@
     <MESSAGE value="LinkedHashSet comments" />
     <MESSAGE value="Java 17 features" />
     <MESSAGE value="More streams" />
-    <option name="LAST_COMMIT_MESSAGE" value="More streams" />
+    <MESSAGE value="CountDownLatch" />
+    <MESSAGE value="Concurrency" />
+    <option name="LAST_COMMIT_MESSAGE" value="Concurrency" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/Java/concurrency/CountDownLatchTest.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/Java/concurrency/CountDownLatchTest.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/Java/concurrency/FutureTest.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
