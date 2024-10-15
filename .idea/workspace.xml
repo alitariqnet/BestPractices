@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b4a806ba-543a-4388-a439-13ff425a8b34" name="Changes" comment="Memory Management">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/openjdk_jol_core.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Java/HelloWorldAnonymousClasses.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="b4a806ba-543a-4388-a439-13ff425a8b34" name="Changes" comment="Local and Anonymous classes">
+      <change beforePath="$PROJECT_DIR$/src/main/Java/HelloWorldAnonymousClasses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Java/HelloWorldAnonymousClasses.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/Java/MemoryManagement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Java/MemoryManagement.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -247,7 +245,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728940919252</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Local and Anonymous classes">
+      <option name="closed" value="true" />
+      <created>1728966736184</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1728966736184</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -269,7 +275,8 @@
     <MESSAGE value="CountDownLatch" />
     <MESSAGE value="Concurrency" />
     <MESSAGE value="Memory Management" />
-    <option name="LAST_COMMIT_MESSAGE" value="Memory Management" />
+    <MESSAGE value="Local and Anonymous classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Local and Anonymous classes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

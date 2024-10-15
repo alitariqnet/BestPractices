@@ -2,8 +2,8 @@ package Java;
 
 public class HelloWorldAnonymousClasses {
     interface HelloWorld {
-        public void greet();
-        public void greetSomeone(String someone);
+        void greet();
+        void greetSomeone(String someone);
     }
 
     public void sayHello() {

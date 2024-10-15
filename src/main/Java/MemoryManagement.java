@@ -7,7 +7,7 @@ import java.util.LinkedList;
 import java.util.List;
 
 public class MemoryManagement {
-    private static String str = "Ali";
+    private final static String str = "Ali";
 
     public static void main(String[] args) {
         System.out.println(VM.current().addressOf(str));
