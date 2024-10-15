@@ -4,45 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b4a806ba-543a-4388-a439-13ff425a8b34" name="Changes" comment="Concurrency">
-      <change afterPath="$PROJECT_DIR$/src/main/Java/MemoryManagement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/BestPractices.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/BestPractices.iml" afterDir="false" />
+    <list default="true" id="b4a806ba-543a-4388-a439-13ff425a8b34" name="Changes" comment="Memory Management">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/openjdk_jol_core.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Java/HelloWorldAnonymousClasses.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/LivingThings/Animal.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/LivingThings/Bird.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/LivingThings/Cat.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/LivingThings/Creature.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/LivingThings/Duck.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/LivingThings/DummyDuck.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/LivingThings/Human.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/LivingThings/LivingThing.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/LivingThings/Parrot.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/LivingThings/PersianDoll.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/LivingThings/Rabbit.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/LivingThings/RealDuck.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/LivingThings/Snake.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/LivingThings/Tree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/main/Arrays.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/main/BaseBallCoach.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/main/Coach.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/main/Collection.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/main/CricketCoach.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/main/DataStructure$DataStructureIterator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/main/DataStructure$EvenIterator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/main/DataStructure.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/main/Loops.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/main/MorePractice.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/main/OtherClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/main/OuterClass$InnerClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/main/OuterClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/main/Practice.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/main/ReverseString.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/main/Search.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/main/Streams.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/main/StringsAttached.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/main/TestClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/main/TimeDate.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/main/WC.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Java/MemoryManagement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Java/MemoryManagement.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,13 +76,15 @@
     "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/alibaba/Desktop/Projects/spring-batch/spring-batch-samples",
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -271,7 +239,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728844044122</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Memory Management">
+      <option name="closed" value="true" />
+      <created>1728940919252</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1728940919252</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -292,7 +268,8 @@
     <MESSAGE value="More streams" />
     <MESSAGE value="CountDownLatch" />
     <MESSAGE value="Concurrency" />
-    <option name="LAST_COMMIT_MESSAGE" value="Concurrency" />
+    <MESSAGE value="Memory Management" />
+    <option name="LAST_COMMIT_MESSAGE" value="Memory Management" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
