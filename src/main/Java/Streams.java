@@ -163,6 +163,13 @@ public class Streams {
         // Reverse a list using the stream API
 //				list.stream().sorted(Comparator.reverseOrder()).forEach(System.out::println);
 //				System.out.println("Second Max from the list: "+ secondMax);
+
+        // Concatenate list of strings to a single string using Streams API
+        StringBuilder s = new StringBuilder(Stream.of("Hello ", "world! ", "my ", "name ", "is ", "Ali.").reduce((a, b) -> a + b).get());
+        System.out.println("s -> "+s);
+
+        // Stream of one integer element reduces to itself instead of throwing some element require exception
+        System.out.println(Stream.of(1).reduce((a, b) -> a + b).get());
     }
 
 
