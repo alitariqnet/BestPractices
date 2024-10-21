@@ -149,7 +149,7 @@ public class Streams {
         System.out.println(summary);
 
         // Find second maximum number from the list using stream API
-        List<Integer> list = Arrays.asList(7, 2, 19, 88, 73, 4, 7, 19, 10);
+        List<Integer> list = Arrays.asList(7, 20, 19, 88, 73, 4, 27, 19, 10);
 //				list.stream().sorted().skip(4).forEach(System.out::println);
 
         Predicate p = (o) -> !o.toString().equalsIgnoreCase("19");
@@ -170,6 +170,7 @@ public class Streams {
 
         // Stream of one integer element reduces to itself instead of throwing some element require exception
         System.out.println(Stream.of(1).reduce((a, b) -> a + b).get());
+        System.out.println("max -> "+list.stream().max((a,b)->a>b?a:b).get());
     }
 
 

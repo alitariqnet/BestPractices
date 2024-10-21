@@ -1,5 +1,16 @@
 package Java;
 
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.io.Reader;
+import java.net.MalformedURLException;
+import java.net.URL;
+import java.net.URLConnection;
+import java.nio.file.Files;
+import java.nio.file.Paths;
+import java.util.ArrayList;
+
 public class HelloWorldAnonymousClasses {
     interface HelloWorld {
         void greet();
@@ -51,5 +62,24 @@ public class HelloWorldAnonymousClasses {
         HelloWorldAnonymousClasses myApp =
                 new HelloWorldAnonymousClasses();
         myApp.sayHello();
+        var name = "ali";
+        // can't change string to integer unlike javascript, so it is compile time error
+//        name = 10;
+        try {
+            var url = new URL("http://www.oracle.com/");
+            var conn = url.openConnection();
+            var reader = new BufferedReader(
+                    new InputStreamReader(conn.getInputStream()));
+            System.out.println(reader);
+            var list = new ArrayList<String>();    // infers ArrayList<String>
+            var stream = list.stream();             // infers Stream<String>
+            var fileName = "test.txt";
+            var path = Paths.get(fileName);        // infers Path
+            var bytes = Files.readAllBytes(path);  // infers bytes[]
+            System.out.println(bytes);
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+
     }
 }
