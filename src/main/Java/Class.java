@@ -1,6 +1,12 @@
 package Java;
 
-public class Class {
+import java.lang.reflect.Array;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.LinkedList;
+import java.util.List;
+
+public class Class implements interface1, interface2{
     public static void main(String[] args) {
         var c1 = String.class;
         System.out.println(c1);
@@ -15,5 +21,15 @@ public class Class {
             throw new RuntimeException(e);
         }
         System.out.println(c3);
+        Class c = new Class();
+        c.printClassName();
+
+
+    }
+
+
+    @Override
+    public void printClassName() {
+        interface1.super.printClassName();
     }
 }
