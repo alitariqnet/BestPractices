@@ -86,12 +86,21 @@ public class Collection {
         v.add(1);
         System.out.println(v.toString());
 
-        Map m = new HashMap(3);
+        Map m = new HashMap(10);
         m.put(1, 100);
         m.put(2, 200);
         m.put('3', "300");
-        System.out.println(m.toString());
+        m.put('4', "400");
+        m.put('5', "500");
+        m.put('6', "600");
+        m.put('7', "700");
+        m.put('8', "800");
+        m.put('9', "900");
+        m.put('1', "1000");
+        m.put('1', "1100");
+        System.out.println(m);
 
+        System.out.println("Calculate table size for 100 -> "+tableSizeFor(100));
         // Does not maintain order of insertion
         Set<String> hs = new HashSet<>();
         hs.add("S");
@@ -135,5 +144,10 @@ public class Collection {
         [7, 6, 9, 3, 5]
          */
     }
+    static final int MAXIMUM_CAPACITY = 1 << 30;
 
+    static final int tableSizeFor(int cap) {
+        int n = -1 >>> Integer.numberOfLeadingZeros(cap - 1);
+        return (n < 0) ? 1 : (n >= MAXIMUM_CAPACITY) ? MAXIMUM_CAPACITY : n + 1;
+    }
 }
