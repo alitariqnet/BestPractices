@@ -84,6 +84,7 @@ public class Collection {
         v.add("hello");
         v.add(null);
         v.add(1);
+        v.remove(1);
         System.out.println(v.toString());
 
         Map m = new HashMap(10);
