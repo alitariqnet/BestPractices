@@ -88,8 +88,8 @@ public class Collection {
         System.out.println(v.toString());
 
         Map m = new HashMap(10);
-        m.put(1, 100);
-        m.put(2, 200);
+        m.put('1', "100");
+        m.put('2', "200");
         m.put('3', "300");
         m.put('4', "400");
         m.put('5', "500");

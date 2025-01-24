@@ -22,7 +22,7 @@ public class FutureTest {
 //            System.out.println("Future cancel -> "+f.cancel(false));
             System.out.println("Future is cancelled? -> "+f.isCancelled());
             System.out.println("Future is done? -> "+f.isDone());
-            System.out.println("Future state? -> "+f.state());
+//            System.out.println("Future state? -> "+f.state());
             System.out.println("Future get() -> "+f.get());
         }
         catch (Exception ex){
